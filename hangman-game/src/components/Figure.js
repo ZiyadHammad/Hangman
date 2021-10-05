@@ -21,7 +21,7 @@ export default function Figure({ wrongLetters }) {
         {errors > 3 && <line x1="140" y1="120" x2="160" y2="100"  />}
         {/* <!-- Legs --> */}
         {errors > 4 && <line x1="140" y1="150" x2="120" y2="180"  />}
-        {errors > 1 && <line x1="140" y1="150" x2="160" y2="180"  />}
+        {errors > 5 && <line x1="140" y1="150" x2="160" y2="180"  />}
     </svg>
   )
 }
